@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");  /* import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body{   /* added background image */
+    background-image: url("./Student_Details/matara.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+
+}
+.cards{   /* designed the cards */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contain{
+    margin-top: 10%;
+    display: flex;
+        }
+
+.profile{  /* added styles to the profile boxes */
+        position:relative;
+        width:90px;
+        margin: 10px;;
+        height: 90px;
+        border-radius:20%;
+        background-image: url("./Student_Details/demo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+        box-shadow: 0 0 0 4px #d1b61d, 0 0 0 6px black;
+        transition: 0.2s;
+        font-family: 'Poppins', sans-serif;
+        }
+
+.profile:hover{   /* put hover effect for the profile images */
+    box-shadow: 0 0 0 4px #fff, 0 0 0 6px midnightblue;
+}
+                
+.content{   /* added styles to the content inside the cards */
+        position:absolute;
+        bottom:75px;
+        padding:20px;
+        min-width: 400px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius:10px;
+        visibility:hidden;
+        opacity:1;
+        transform: translateY(-10px);
+        transition: 0.5s;
+        font-family: 'Poppins', sans-serif;
+        }
+/* styling the content inside the cards */
+.content .Shadow{
+    display:flex;
+    align-items:center;
+}
+
+.content .Shadow img{
+    grid-column: 1/2;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.content .Shadow .info{
+    margin-left: 1em;
+}
+
+.content .Shadow .info .name{
+    font-size: 1.25em;
+    color: #333;
+    font-size:60;
+}
+                    
+.content .Shadow .info .title{
+    font-size: 1.5em;
+    color: gray;
+    font-weight:bold;
+}
+                
+.content .body{
+    padding:1em;
+}
+                
+.content .body p{
+    font-size:1em;
+    color:black;
+}
+
+.profile:hover .content{   /* put hover effect for the content */
+    visibility: visible;
+    opacity:1;
+    transform: translateX(-15%) translateY(0px);
+}
+
+.Page_Editor {   /* designed the page editor link */
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom:5px;
+}
