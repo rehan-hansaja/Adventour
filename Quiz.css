@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");   /* import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.header{   /* added styles to the header of the page */
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("./Home_Page/picture2.jpg");
+    background-position: center;
+    background-size: cover;
+	background-repeat: no-repeat;
+    position: relative;
+	padding-top: 60px;
+	font-weight:bold;
+	color:white;
+	border-radius:10px;
+	text-align:center;
+	padding: 1 0 1 0;
+}
+
+.header h1 {
+    margin-top: 20px;
+	font-size: 100px;
+    font-weight: normal;
+    color:black;
+    font-family: Satisfy;    
+}
+body{   /* put a background image for the body */
+	background-image: url(bg8.jpeg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body{   /* designed the body of the page */
+	
+	text-align:center;
+	border-style:solid;
+	border: 3 3 3 3;
+	border-radius: 10px;
+	margin-top: 5px;
+    font-family: "Barlow Condensed";
+}
+
+.question {   /* added styles to the questions of the page */
+		
+	text-align:center;
+	border-style:solid;
+	border: 3.5px solid green;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom:5px;
+	padding-bottom:5px;
+    background-color: lightgoldenrodyellow;
+	font-family:  "Barlow Condensed";
+	
+}
+
+.sub-button {   /* added styles to the submit button */
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom:5px;
+	color: aquamarine;
+  }
+
+.timing{   /* designed the timer box */
+	color: black;
+	background-color: lightgrey;
+	width: 150px;
+	border-style:solid;
+	border: 3.5px solid green;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+	margin-left:680px;
+	margin-right:50%;
+  }
+
+  .Page_Editor {   /* designed the page editor link */
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom:5px;
+}
