@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");   /* import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-.header{   /* added styles to the header of the page */
+.header{
     min-height: 100vh;
     width: 100%;
     background-image: url("./Home_Page/picture2.jpg");
@@ -25,13 +25,13 @@
     color:black;
     font-family: Satisfy;    
 }
-body{   /* put a background image for the body */
-	background-image: url(bg8.jpeg); 
+body{
+	background-image: url(./Home_Page/bg8.jpeg); 
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-.body{   /* designed the body of the page */
+.body{
 	
 	text-align:center;
 	border-style:solid;
@@ -41,7 +41,7 @@ body{   /* put a background image for the body */
     font-family: "Barlow Condensed";
 }
 
-.question {   /* added styles to the questions of the page */
+.question {
 		
 	text-align:center;
 	border-style:solid;
@@ -57,28 +57,22 @@ body{   /* put a background image for the body */
 	
 }
 
-.sub-button {   /* added styles to the submit button */
+.sub-button {
     margin-top: 5px;
     text-align: center;
     margin-bottom:5px;
 	color: aquamarine;
   }
 
-.timing{   /* designed the timer box */
+.timing{
 	color: black;
 	background-color: lightgrey;
-	width: 150px;
+	width: 300px;
 	border-style:solid;
 	border: 3.5px solid green;
 	border-radius: 10px;
 	padding: 10px;
 	margin: 10px;
-	margin-left:680px;
-	margin-right:50%;
+	margin-left:40%;
+	margin-right:40%;
   }
-
-  .Page_Editor {   /* designed the page editor link */
-    margin-top: 5px;
-    text-align: center;
-    margin-bottom:5px;
-}
