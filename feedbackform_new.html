@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+  <HEAD>
+    <TITLE>Feedback Form</TITLE>
+    <link rel="stylesheet" href="tourism1.css">
+
+    <style>
+      .name, .email, .country{
+        text-align: center;
+        padding-right: 3%;
+        
+      }
+    </style>
+  </HEAD>
+  <body>
+    <section class="Feedback">
+    <section class="nav-bar">
+
+      <ul class="menu">
+          <li><a class="logo" href = "tourism1.html"><img src="./Home_Page/Picture1.png" width="100px" height="90px"></a></li>
+          <li><a href="tourism1.html">Home</a></li>
+          <li><a href="shop.html">Products</a></li>
+          <li><a href="Quiz.html">Quiz</a></li>
+          <li><a href="sitemap1.html">Site Map</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="students.html">About Us</a></li>
+          <li><a href="feedbackform_new.html">Feedback</a></li>
+      </ul>
+    </section><BR>
+
+    <h1 class="head" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feedback Form</h1><BR><BR>
+      <form method="post" action="mailto:sanduladissanayaka@gmail.com" enctype="text/plain" style="color: aliceblue;" id="my-form">
+        
+      <div>
+        <div class="star-bar" >
+        <input type="radio" name="star" id="star1" checked="checked">
+        <label for="star1">
+          <img src="./content/in-love.png" width="60px" height="50px">
+          <h4 style="color: aliceblue;" class="loved it" id="loved it" name="loved it">Loved It</h4>
+        </label>
+        <input type="radio" name="star" id="star2">
+        <label for="star2">
+          <img src="./content/happy.png" width="60px" height="50px">
+          <h4 style="color: aliceblue;" class="liked it" id="liked it" name="liked it">Liked It</h4>
+        </label>
+        <input type="radio" name="star" id="star3">
+        <label for="star3">
+          <img src="./content/sad.png" width="60px" height="50px">
+          <h4 style="color: aliceblue;" class="disliked it" id="disliked it" name="disliked it">Disliked It</h4>
+        </label>
+        <input type="radio" name="star" id="star4">
+        <label for="star4">
+          <img src="./content/sick.png" width="60px" height="50px">
+          <h4 style="color: aliceblue;" class="hated it" id="hated it" name="hated it">Hated It</h4>
+        </label>
+        
+        <h2 class="msg">Did you like our service?</h2>
+        
+        </div> 
+        <br><br><br>
+        <br><br><br><br><br><br><br><br>
+
+
+
+       
+        &nbsp;&nbsp;&nbsp;&nbsp;Full Name :  <input class="name" type="text" id="name" name="name" placeholder="Please enter your full name" style="background-color: #e2b57a;" required > 
+        <br><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; Country : <input class="country" type="text" id="country" name="country" placeholder="Please enter your country" style="background-color: #e2b57a;" required >
+        <BR><BR><BR>
+          &nbsp;&nbsp;&nbsp;&nbsp; E-mail : <input class="email" type="email" id="email" name="email" placeholder="Please enter your E-mail" style="background-color: #e2b57a;" required >
+        <BR><BR><BR>
+        
+        &nbsp; &nbsp; &nbsp;Comments : 
+          <br> <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; <textarea rows="7" cols="80" name="commentfield" class="comment" id="comment" name="comment" style="background-color: #e2b57a;" required>
+            </textarea><BR><BR>
+              &nbsp;&nbsp; <input type="submit" value="Send Feedback" style="background-color: #e2b57a;" onclick="validateForm()" href="mailto:sanduladissanayaka@gmail.com">&nbsp;&nbsp;
+        <input type="reset" value="Reset" style="background-color: #e2b57a;">
+        <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+      </div>
+    </form>
+    <script src="feedbackform_new.js"></script>
+    <a  class="copyright" href="./students/student2.html">
+      <marquee direction="right"> &#169;The Editor</marquee>
+      </a> 
+  </section>
+  
+  </body>
+</html>
+

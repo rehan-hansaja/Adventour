@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");
+.svgrect2:hover,.svgrect3:hover,.svgrect4:hover,.svgrect5:hover,.svgrect6:hover,.svgrect7:hover,.svgrect8:hover,
+.svgrect1:hover{
+    stroke:orangered;
+    stroke-width: 3px;
+}
+.nav-bar {
+display: flex;
+flex-flow: row wrap;
+width: 100%;
+height: 90px;
+background-color: #d1b61d;
+box-shadow: 3px 3px 10px rgb(56, 56, 56);
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+z-index: 1;
+}
+
+
+.nav-bar .menu .logo {
+position: absolute;
+top: 0%;
+left: 1%;
+
+}
+
+ul.menu {
+flex: 1;
+display: inline-flex;
+flex-flow: row wrap;
+
+
+}
+
+.menu li {
+flex: 1;
+list-style-type:none;
+font-size: 16px;
+font-family: "Barlow Condensed";
+text-align: center;
+
+
+}
+
+
+.menu li a {
+text-decoration: none;
+color: #000;
+text-transform: uppercase;
+
+
+}
+
+.menu a:hover {
+color: ghostwhite;
+text-decoration: double;
+}
+
+
+
+body{
+    
+    text-align:center;
+    background-image:url(./Home_Page/bg7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow ', sans-serif;;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color:darkgray ;
+    -webkit-text-stroke-width: 3px;
+    font-weight: lighter;
+    font-size:100px;
+
+}
+
+
+
+line{
+    stroke:blue;
+    stroke-width: 4;
+}
+text{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.copyright{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-fill-color:transparent ;
+    -webkit-text-stroke-color: darkgrey;
+    font-weight: light;
+    -webkit-text-stroke-width: 1px;
+    font-size: 30px;
+}
+
+
+marquee{
+    width: 1000px;
+    height: 100px;
+}
+

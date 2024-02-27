@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="tourism1.css">
+    <link rel="stylesheet" href="shop.css">
+</head>
+
+<body>
+    <!--===========Nav Bar=================-->
+    <section class="nav-bar">
+        <ul class="menu">
+            <li><a class="logo" href="tourism1.html"><img src="./Home_Page/Picture1.png" width="100px"
+                        height="90px"></a></li>
+            <li><a href="tourism1.html">Home</a></li>
+            <li><a href="shop.html">Products</a></li>
+            <li><a href="Quiz.html">Quiz</a></li>
+            <li><a href="sitemap1.html">Site Map</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="students.html">About Us</a></li>
+            <li><a href="feedbackform_new.html">Feedback</a></li>
+        </ul>
+    </section>
+            
+        </header>
+        <div class="box-container">
+            <div class="flex">
+                <!-- First product -->
+                <div class="box">
+                    <div class="text" id="product1_Title">Bronze Tier</div>
+                    <p class="textdes">Adventour Membership</p>
+
+                    <div class="quantityProduct" >
+                        <select name="quantity" id="quantity" onchange="getvalue1();">
+                            <option value="25,000"> 1 </option>
+                            <option value="40,000"> 2 </option>
+                            <option value="65,000"> 3 </option>
+                        </select>
+                    </div>
+                        <span class="currency">Rs.</span>
+                        <p id="product1">25,000</p>
+
+                    <div class="buttonWhole">
+                        <button type="button" class = "onlybutton" value="add to cart" onclick="p1TotalCost()">
+                            <span><img src="./content/cart.png" alt="cartsign"></span> 
+                            <span style="position: relative; bottom: 2px; right: 2px;">add to cart</span>  
+                        </button>
+                    </div>
+                </div>
+
+                <!-- second product -->
+                <div class="box2">
+                    <div class="text" id="product2_Title">Golden Tier</div>
+                    <p class="textdes">Adventour Membership</p>
+
+                    <div class="quantityProduct2" >
+                        <select name="quantity2" id="quantity2" onchange="getvalue2();">
+                            <option value="50,000"> 1 </option>
+                            <option value="80,000"> 2 </option>
+                            <option value="110,000"> 3 </option>
+                        </select>
+                    </div>
+                        <span class="currency">Rs.</span>
+                        <p id="product2">50,000</p>
+                        
+                        <script>
+
+                        </script>
+                    <div class="buttonWhole">
+                        <button type="button" class = "onlybutton" value="add to cart" onclick="p2TotalCost()">
+                            <span><img src="./content/cart.png" alt="cartsign"></span> 
+                            <span style="position: relative; bottom: 2px; right: 2px;">add to cart</span>  
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Third product -->
+                <div class="box">
+                    <div class="text" id="product3_Title">Platinum Tier</div>
+                    <p class="textdes">Adventour Membership</p>
+
+                    <div class="quantityProduct" >
+                        <select name="quantity3" id="quantity3" onchange="getvalue3();">
+                            <option value="75,000"> 1 </option>
+                            <option value="130,000"> 2 </option>
+                            <option value="205,000"> 3 </option>
+                        </select>
+                    </div>
+                        <span class="currency">Rs.</span>
+                        <p id="product3">75,000</p>
+                        
+                        <script>
+                        </script>
+
+                    <div class="buttonWhole">
+                        <button type="button" class = "onlybutton" value="add to cart" onclick="p3TotalCost()">
+                            <span><img src="./content/cart.png" alt="cartsign"></span> 
+                            <span style="position: relative; bottom: 2px; right: 2px;">add to cart</span>  
+                        </button>
+                        
+                    </div>
+                </div>
+                
+                <!-- Forth product -->
+                <div class="box2">
+                    <div class="text" id="product4_Title">Guest Lounge</div>
+                    <p class="textdes">Adventour Passes</p>
+
+                    <div class="quantityProduct2">
+                        <select name="quantity4" id="quantity4" onchange="getvalue4();">
+                            <option value="15,000"> 1 </option>
+                            <option value="25,000"> 2 </option>
+                            <option value="35,000"> 3 </option>
+                        </select>
+                    </div>
+                        <span class="currency">Rs.</span>
+                        <p id="product4">15,000</p>
+
+                    <div class="buttonWhole">
+                        <button type="button" class = "onlybutton" value="add to cart" onclick="p4TotalCost()">
+                            <span><img src="./content/cart.png" alt="cartsign"></span> 
+                            <span style="position: relative; bottom: 2px; right: 2px;">add to cart</span>  
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Fifth product -->
+                <div class="box">
+                    <div class="text" id="product5_Title">VIP Lounge </div>
+                    <p class="textdes">Adventour Passes</p>
+
+                    <div class="quantityProduct" >
+                        <select name="quantity5" id="quantity5" onchange="getvalue5();">
+                            <option value="20,000"> 1 </option>
+                            <option value="35,000"> 2 </option>
+                            <option value="50,000"> 3 </option>
+                        </select>
+                    </div>
+                        <span class="currency">Rs.</span>
+                        <p id="product5">20,000</p>
+                        
+                    <div class="buttonWhole">
+                        <button type="button" class = "onlybutton" value="add to cart" onclick="p5TotalCost()">
+                            <span><img src="./content/cart.png" alt="cart_sign"></span> 
+                            <span style="position: relative; bottom: 2px; right: 2px;">add to cart</span>  
+                        </button>
+                        
+                    </div>
+                </div>
+                
+                <!-- Sixth product -->
+                <div class="box2">
+                    <div class="text" id="product6_Title">Officials Lounge</div>
+                    <p class="textdes">Adventour Passes</p>
+
+                    <div class="quantityProduct2" >
+                        <select name="quantity6" id="quantity6" onchange="getvalue6();">
+                            <option value="25,000"> 1 </option>
+                            <option value="40,000"> 2 </option>
+                            <option value="65,000"> 3 </option>
+                        </select>
+                    </div>
+                        <span class="currency">Rs.</span>
+                        <p id="product6">25,000</p>
+
+                    <div class="buttonWhole">
+                        <button type="button" class = "onlybutton" value="add to cart" onclick="p6TotalCost()">
+                            <span><img src="./content/cart.png" alt="cartsign"></span> 
+                            <span style="position: relative; bottom: 2px; right: 2px;">add to cart</span>  
+                        </button>
+                    </div>
+                </div>
+
+        <div id="invoice-overlaw">
+            <p class="tabel-data">Carted items</p> <br><br><br>
+            <table class="tabel-data" id = "totaltable">
+                <tr>
+                    <th>Product</th>
+                    <th>quantity</th>
+                    <th>Cost</th>
+                </tr>
+            </table>
+            <p id="costShowTitle">Total cost&nbsp;&nbsp;&nbsp;: Rs.</p>
+            <p id="costShow"><span style="color: transparent;">10000</span></p>
+            <button id="proceed">proceed</button>
+        </div>
+        </div>
+
+        <span class="buyForm">
+            <h1>Checkout</h1>
+            <form name="buyProduct" method="post">
+                <input type="text" size="1" id="empty" >
+                <div class="details" style="margin-bottom: 1px;">
+                    <input type="text" name="full name" id="fname" size="30" class="floatInput" placeholder="Full Name"> <br>
+                </div>
+
+                <div class="details">
+                    <input type="text" name="email" id="email" size="30" class="floatInput" placeholder="Email">
+                </div> 
+
+                <div class="details" style="margin-bottom: 1px;" id="Address1">
+                    <input type="text" name="rAddess" id="rAddress" size="30" class="floatInput" placeholder="Residential address ">                    
+                </div>
+
+                <div class="details" style="margin-bottom: 1px;">
+                    <input type="text" name="pcode" id="pcode" size="30" class="floatInput" placeholder="Postal Code"> <br>
+                </div>
+
+                <span class="details">
+                    <label for="mcard"><img src = "./content/master.png" alt="MasterCard"></label>
+                    <input type="radio" name="card" id="mcard" value="Master card">
+                </span>
+                
+
+                <span class="details">
+                    <label for="vcard"><img src="./content/visa.png" alt="visaCard" id = "visa"></label>
+                    <input type="radio" name="card" id="vcard" value = "visa card"><br> <br>
+                </span>
+                
+                <div class="details" style="margin-bottom: 1px;">
+                    <input type="text" name="cName" id="cName" size="30" class="floatInput" placeholder="Name on Card">
+                </div>
+
+                <div class="details" style="margin-bottom: 1px;">
+                    <input type="text" name="cNum" id="cNum" maxlength="32" minlength="1" size="30" class="floatInput" placeholder="Card Number">
+                </div>
+
+                <div class="details" id="col1" style="margin-bottom: 1px;">
+                    <input type="text" name="expDate" id="expDate" maxlength="4" minlength="1" size="7" class="floatInput" placeholder="Expiry Date">
+                </div>
+
+                <div class="details" id = "col2">
+                    <input type="text" name="ccv" id="ccv" maxlength="3" minlength="3" size="7" class="floatInput" placeholder="CVV">
+                </div>
+
+                <p class="details" id="total">Total Amount</p>
+                <span id="total-cost2">Rs.</span>
+
+                <p class="details2" id="total2">Total quantity</p>
+                <span id="totla-quantity" ><span style="color: transparent;">1X</span></span>
+                <p class="details" id="total-cost"><span style="color: transparent;">Rs.10000</span></p>
+                <div class="details">
+                    <button name="placeOrder" id="placeOrder" onclick="return showAndClearField(this.form)">Place Order</button>
+                    <button name="cancelOrder" id="cancelOrder" onclick="ClearField(this.form)">Cancel Order</button>
+                </div>
+            </form>
+        </span>
+        
+        <!-- Footer part -->
+    <a class="copyright" href="./students/student1.html">
+        <marquee direction="right"> &#169;The Editor</marquee>
+    </a>
+    </body>
+</html>
