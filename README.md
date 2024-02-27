@@ -1,7 +1,7 @@
 # Adventour
 To view the website :  
 
-Adventour is a travel guide website for the both Sri Lankan and foreign tourists to explore the Sri Lankan tourist attractions. The web site contains articles about 6 most rated places in the island on homepage. Then it contains image gallery, a quiz, a sitemap and a products page. A user feedback form and the developer details are also included. 
+Adventour is a travel guide website for both Sri Lankan and foreign tourists to explore Sri Lankan tourist attractions. The web site contains articles about six most-rated places in the island on homepage. Then it contains image gallery, a quiz, a sitemap and a products page. A user feedback form and the developer details are also included. 
 
 Here are some of the screenshots of the web pages. 
 
